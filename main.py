@@ -39,7 +39,7 @@ def get_nearest_color_name(rgb):
             min_distance = distance
             nearest_color = name
     return nearest_color
-
+##
 # Load history on startup
 if isfile(history_file):
     with open(history_file, "r") as f:
